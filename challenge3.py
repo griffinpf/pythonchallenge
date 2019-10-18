@@ -3,7 +3,7 @@
 ##################################################################
 import os
 
-cwd = os.getcwd()
+cwd = os.path.dirname(__file__)
 # Mess of characters found in the end of the page source:
 txt = cwd + '/resources/Challenge 3.txt'
 with open(txt,'r') as file:
