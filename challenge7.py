@@ -3,8 +3,10 @@
 ################################################################
 
 from PIL import Image
+import os
 
-im = Image.open("C:/Users/pgriffi2/AppData/Local/Programs/Python/Python36-32/pythonchallenge/resources/oxygen.png")
+cwd = os.path.dirname(__file__)
+im = Image.open(cwd+'/resources/oxygen.png')
 
 d = {}
 
